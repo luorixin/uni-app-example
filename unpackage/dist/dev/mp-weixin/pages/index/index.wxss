@@ -1,0 +1,80 @@
+.carousel{
+	width: 100%;
+	height: 440rpx;
+}
+.super-hot{
+	margin-top: 12rpx;
+	padding: 20rpx;
+}
+.hot-title-wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.hot-ico{
+	height: 30rpx;
+	width: 30rpx;
+	margin-top: 15rpx;
+}
+.hot-title{
+	font-size: 20px;
+	margin-left: 20rpx;
+	font-weight: bold;
+}
+.page-block{
+	background-color: #FFFFFF;
+}
+.hot{
+	width: 100%;
+	white-space: nowrap;
+}
+.single-poster{
+	display: inline-block;
+	margin-left: 20rpx;
+}
+.poster-wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.poster{
+	width: 200rpx;
+	height: 270rpx;
+}
+.movie-name{
+	width: 200rpx;
+	margin-top: 10rpx;
+	font-size: 14px;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.movie-score-wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.star-ico{
+	width: 20rpx;
+	height: 20rpx;
+	margin-top: 6rpx;
+}
+.movie-score{
+	font-size: 12px;
+	color: grey;
+	margin-left: 8rpx;
+}
+
