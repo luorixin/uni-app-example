@@ -1,0 +1,40 @@
+.search-block{
+	display: flex;
+	flex-direction: row;
+	padding: 0upx 20upx 0upx 20upx;
+	position: fixed;
+	top: 80upx;
+	z-index: 2000;
+	background-color: #F8F8F8;
+}
+.search-ico-wrapper{
+	background-color: #eaeaea;
+	width: 60upx;
+	text-align: center;
+}
+.search-ico{
+	width: 40upx;
+	height: 40upx;
+	margin-top: 5px;
+}
+.search-text{
+	font-size: 14px;
+	background-color: #eaeaea;
+	height: 60upx;
+	width: 650upx;
+	line-height: 60upx;
+}
+.like-movie{
+	width: 200upx;
+	height: 240upx;
+}
+.movie-list{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	padding: 80upx 10upx 0 10upx;
+}
+.movie-wrapper{
+	padding: 10upx 20upx;
+}
